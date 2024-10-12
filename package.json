@@ -1,6 +1,6 @@
 {
     "name": "script-music-mopidy",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "define at src/spec.ts",
     "main": "src/script.ts",
     "config": {

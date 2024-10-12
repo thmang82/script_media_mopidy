@@ -7,7 +7,7 @@ export const specification: DataSource.Specification = {
     // ---
     provides: [ "music_player" ],
     // ---
-    version:   "0.1.3",
+    version:   "0.1.4",
     // ---
     translations: {
         'en': { name: "Mopidy Remote Control", description: "Control Mopidy streaming client running e.g. on a Rasperry PI" }
