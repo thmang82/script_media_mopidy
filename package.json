@@ -1,0 +1,18 @@
+{
+    "name": "script-music-mopidy",
+    "version": "0.1.3",
+    "description": "define at src/spec.ts",
+    "main": "src/script.ts",
+    "config": {
+        "cli": "../toolchain/tools/script_cli.js"
+    },
+    "scripts": {
+        "cli":              "node ${npm_package_config_cli}",
+        "build":            "node ${npm_package_config_cli} build    || true",
+        "build:onserver":   "node ${npm_package_config_cli} build -s || true",
+        "install":          "node ${npm_package_config_cli} install   || true",
+        "toolchain:update": "node ${npm_package_config_cli} toolchain update",
+        "update":           "npm run toolchain:update",
+        "install:hooks":    "cp -f ../toolchain/tools/git/* .git/hooks/."
+    }
+}
